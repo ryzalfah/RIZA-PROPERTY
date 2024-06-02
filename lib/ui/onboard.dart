@@ -4,8 +4,8 @@ import 'package:riza_property/login/login.dart';
 import 'package:riza_property/ui/info1.dart';
 import 'package:riza_property/ui/info2.dart';
 
-class Splash extends StatelessWidget {
-  const Splash({Key? key}) : super(key: key);
+class onboard extends StatelessWidget {
+  const onboard({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

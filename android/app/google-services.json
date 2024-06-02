@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "662803436661",
+    "project_id": "riza-property",
+    "storage_bucket": "riza-property.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662803436661:android:5b354fa7870e27ceb1143c",
+        "android_client_info": {
+          "package_name": "com.example.riza_property"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662803436661-iruutucos2la2rn18nv9gq2u0bn602sp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_S7OD6uUjzM1CE4GJd7WlGQ9mQlI2KtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662803436661-iruutucos2la2rn18nv9gq2u0bn602sp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "662803436661-asvm07p4u13k26j2dh99qkqevp8mvlat.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.rizaProperty"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
