@@ -148,13 +148,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   const SizedBox(
                     width: 30.0,
                   ),
-                  GestureDetector(
-                    onTap: () {},
-                    child: const CircleAvatar(
-                      backgroundImage: NetworkImage(
-                          'https://freepngimg.com/thumb/facebook/62578-like-icons-button-fb-computer-facebook-icon.png'),
-                    ),
-                  )
                 ],
               ),
               SizedBox(

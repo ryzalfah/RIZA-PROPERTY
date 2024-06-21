@@ -40,58 +40,60 @@ class info extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10),
                   ),
                   child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Material(
-                          borderRadius: BorderRadius.circular(10),
-                          shadowColor: Colors.blue,
-                          child: InkWell(
-                            onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => const login(),
-                                ),
-                              );
-                            },
-                            child: Container(
-                              padding: EdgeInsets.symmetric(
-                                  vertical: 15, horizontal: 35),
-                              child: Text(
-                                "Lewati",
-                                style: TextStyle(
-                                  color: Color.fromRGBO(0, 48, 83, 1),
-                                  fontSize: 20,
-                                ),
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Material(
+                        borderRadius: BorderRadius.circular(10),
+                        shadowColor: Colors.blue,
+                        child: InkWell(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => const login(),
+                              ),
+                            );
+                          },
+                          child: Container(
+                            padding: EdgeInsets.symmetric(
+                                vertical: 15, horizontal: 35),
+                            child: Text(
+                              "Lewati",
+                              style: TextStyle(
+                                color: Color.fromRGBO(0, 48, 83, 1),
+                                fontSize: 20,
                               ),
                             ),
                           ),
                         ),
-                        Material(
-                            color: Colors.blue,
-                            borderRadius: BorderRadius.circular(10),
-                            child: InkWell(
-                              onTap: () {
-                                Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) => const info2(),
-                                  ),
-                                );
-                              },
-                              child: Container(
-                                padding: EdgeInsets.symmetric(
-                                    vertical: 15, horizontal: 35),
-                                child: Text(
-                                  "Lanjut",
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 20,
-                                  ),
-                                ),
+                      ),
+                      Material(
+                        color: Colors.blue,
+                        borderRadius: BorderRadius.circular(10),
+                        child: InkWell(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => const info2(),
                               ),
-                            ))
-                      ]),
+                            );
+                          },
+                          child: Container(
+                            padding: EdgeInsets.symmetric(
+                                vertical: 15, horizontal: 35),
+                            child: Text(
+                              "Lanjut",
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 20,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 )
               ],
             ),

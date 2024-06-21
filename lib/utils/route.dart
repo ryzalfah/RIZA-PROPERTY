@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:riza_property/home/Cenarius.dart';
+import 'package:riza_property/home/Serprenta.dart';
+import 'package:riza_property/home/Sylvanas.dart';
 import 'package:riza_property/home/home.dart';
 import 'package:riza_property/login/login.dart';
-import 'package:riza_property/login/lupa_password.dart';
-import 'package:riza_property/login/new_password.dart';
 import 'package:riza_property/login/register.dart';
 import 'package:riza_property/ui/onboard.dart';
 
@@ -25,11 +26,15 @@ Route? generateRoute(RouteSettings settings) {
     case rLogin:
       _route = _pageRoute(body: login(), settings: settings);
       break;
-    case rLupa:
-      _route = _pageRoute(body: lupapassword(), settings: settings);
+    case rcenarius:
+      _route = _pageRoute(body: Cenarius(), settings: settings);
       break;
-    case rNew:
-      _route = _pageRoute(body: newpas(), settings: settings);
+    case rserprenta:
+      _route = _pageRoute(body: Serprenta(), settings: settings);
+      break;
+    case rsylvanas:
+      _route = _pageRoute(body: Sylvanas(), settings: settings);
+      break;
   }
   return _route;
 }
@@ -39,5 +44,6 @@ const String rOnboard = '/onboard';
 const String rHome = '/home';
 const String rRegister = '/register';
 const String rLogin = '/login';
-const String rLupa = '/lupa';
-const String rNew = '/new';
+const String rcenarius = '/rumah3';
+const String rserprenta = '/rumah2';
+const String rsylvanas = '/rumah1';

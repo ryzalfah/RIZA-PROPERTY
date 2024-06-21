@@ -121,23 +121,6 @@ class _loginState extends State<login> {
             SizedBox(
               height: 15,
             ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: [
-                TextButton(
-                    onPressed: () {
-                      Navigator.pushNamed(context, '/lupa');
-                    },
-                    child: Text(
-                      "Lupa Kata Sandi?",
-                      style: TextStyle(
-                          fontWeight: FontWeight.w400, color: Colors.black),
-                    ))
-              ],
-            ),
-            SizedBox(
-              height: 15,
-            ),
             ElevatedButton(
               onPressed: () {
                 context
@@ -186,13 +169,6 @@ class _loginState extends State<login> {
                 const SizedBox(
                   width: 30.0,
                 ),
-                GestureDetector(
-                  onTap: () {},
-                  child: const CircleAvatar(
-                    backgroundImage: NetworkImage(
-                        'https://freepngimg.com/thumb/facebook/62578-like-icons-button-fb-computer-facebook-icon.png'),
-                  ),
-                )
               ],
             ),
             SizedBox(
